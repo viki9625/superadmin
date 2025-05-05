@@ -1,0 +1,85 @@
+nohup: ignoring input
+/root/biometric/app/venv/lib/python3.10/site-packages/pydantic/_internal/_fields.py:198: UserWarning: Field name "current_date" in "Announcement" shadows an attribute in parent "Document"
+  warnings.warn(
+INFO:utils.encryption:Encryption key loaded successfully from .env file.
+INFO:     Started server process [1677480]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8081 (Press CTRL+C to quit)
+INFO:     14.139.42.50:50449 - "GET /docs HTTP/1.1" 200 OK
+INFO:     14.139.42.50:50449 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     14.139.42.50:41146 - "GET /superadmin/get-leave-requests HTTP/1.1" 200 OK
+INFO:     14.139.42.50:41146 - "PATCH /superadmin/approve-leave-request/68187abf91b44e3e58cb885b HTTP/1.1" 200 OK
+INFO:     14.139.42.50:41146 - "GET /superadmin/get-leave-requests HTTP/1.1" 200 OK
+INFO:     14.139.42.50:23715 - "POST /request-for-leave?leave_type=Casual%20Leave HTTP/1.1" 201 Created
+INFO:     14.139.42.50:41156 - "GET /superadmin/get-leave-requests HTTP/1.1" 200 OK
+INFO:     14.139.42.50:41156 - "PATCH /superadmin/approve-leave-request/68187cecfddb0c4390f6560e HTTP/1.1" 200 OK
+INFO:     14.139.42.50:41156 - "GET /superadmin/get-leave-requests HTTP/1.1" 200 OK
+INFO:     14.139.42.50:51371 - "POST /request-for-leave?leave_type=Casual%20Leave HTTP/1.1" 201 Created
+INFO:     14.139.42.50:53213 - "GET /admin/attendance HTTP/1.1" 404 Not Found
+INFO:     14.139.42.50:53213 - "GET /superadmin/all-users HTTP/1.1" 200 OK
+INFO:     14.139.42.50:53213 - "GET /superadmin/get-leave-requests HTTP/1.1" 200 OK
+INFO:     14.139.42.50:53213 - "PATCH /superadmin/approve-leave-request/68187d0bfddb0c4390f6560f HTTP/1.1" 200 OK
+INFO:     14.139.42.50:53213 - "GET /superadmin/get-leave-requests HTTP/1.1" 200 OK
+INFO:     14.139.42.50:41172 - "GET /superadmin/get-leave-requests-history HTTP/1.1" 200 OK
+INFO:     14.139.42.50:50870 - "GET /superadmin/get-leave-requests HTTP/1.1" 200 OK
+INFO:     14.139.42.50:41174 - "GET /superadmin/get-leave-requests HTTP/1.1" 200 OK
+INFO:     14.139.42.50:51417 - "POST /request-for-leave?leave_type=Casual%20Leave HTTP/1.1" 201 Created
+INFO:     14.139.42.50:41178 - "GET /superadmin/get-leave-requests HTTP/1.1" 200 OK
+INFO:     14.139.42.50:41178 - "PATCH /superadmin/approve-leave-request/68187e1ffddb0c4390f65610 HTTP/1.1" 200 OK
+INFO:     14.139.42.50:41178 - "GET /superadmin/get-leave-requests HTTP/1.1" 200 OK
+INFO:     14.139.42.50:51430 - "POST /request-for-leave?leave_type=Casual%20Leave HTTP/1.1" 201 Created
+INFO:     14.139.42.50:41196 - "GET /admin/attendance HTTP/1.1" 404 Not Found
+INFO:     14.139.42.50:41196 - "GET /superadmin/all-users HTTP/1.1" 200 OK
+INFO:     14.139.42.50:41196 - "GET /superadmin/get-leave-requests HTTP/1.1" 200 OK
+INFO:     14.139.42.50:41196 - "PATCH /superadmin/approve-leave-request/68187eaafddb0c4390f65611 HTTP/1.1" 200 OK
+INFO:     14.139.42.50:41196 - "GET /superadmin/get-leave-requests HTTP/1.1" 200 OK
+INFO:     14.139.42.50:51448 - "POST /request-for-leave?leave_type=Casual%20Leave HTTP/1.1" 201 Created
+INFO:     14.139.42.50:41198 - "GET /admin/attendance HTTP/1.1" 404 Not Found
+INFO:     14.139.42.50:41198 - "GET /superadmin/all-users HTTP/1.1" 200 OK
+INFO:     14.139.42.50:41200 - "GET /superadmin/get-leave-requests HTTP/1.1" 200 OK
+INFO:     14.139.42.50:41200 - "PATCH /superadmin/approve-leave-request/68187edafddb0c4390f65612 HTTP/1.1" 200 OK
+INFO:     14.139.42.50:41200 - "GET /superadmin/get-leave-requests HTTP/1.1" 200 OK
+INFO:     14.139.42.50:51502 - "POST /request-for-leave?leave_type=Casual%20Leave HTTP/1.1" 201 Created
+INFO:     14.139.42.50:41212 - "GET /admin/attendance HTTP/1.1" 404 Not Found
+INFO:     14.139.42.50:41212 - "GET /superadmin/all-users HTTP/1.1" 200 OK
+INFO:     14.139.42.50:41214 - "GET /superadmin/get-leave-requests HTTP/1.1" 200 OK
+INFO:     14.139.42.50:41214 - "PATCH /superadmin/approve-leave-request/68187f71fddb0c4390f65613 HTTP/1.1" 200 OK
+INFO:     14.139.42.50:51541 - "POST /request-for-leave?leave_type=Casual%20Leave HTTP/1.1" 201 Created
+INFO:     14.139.42.50:41224 - "GET /admin/attendance HTTP/1.1" 404 Not Found
+INFO:     14.139.42.50:41224 - "GET /superadmin/all-users HTTP/1.1" 200 OK
+INFO:     14.139.42.50:24495 - "GET /docs HTTP/1.1" 200 OK
+INFO:     14.139.42.50:24495 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     14.139.42.50:41234 - "GET /superadmin/get-leave-requests HTTP/1.1" 200 OK
+INFO:     14.139.42.50:51557 - "POST /request-for-leave?leave_type=Casual%20Leave HTTP/1.1" 401 Unauthorized
+WARNING:passlib.handlers.bcrypt:(trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "/root/biometric/app/venv/lib/python3.10/site-packages/passlib/handlers/bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+AttributeError: module 'bcrypt' has no attribute '__about__'
+INFO:     14.139.42.50:51558 - "POST /login HTTP/1.1" 200 OK
+INFO:     14.139.42.50:27509 - "POST /request-for-leave?leave_type=Casual%20Leave HTTP/1.1" 201 Created
+INFO:     14.139.42.50:23592 - "GET /user/get-leave-history HTTP/1.1" 200 OK
+INFO:     14.139.42.50:64213 - "PATCH /superadmin/reject-leave-request/68170039f1ec9665ea96bf8a?remarks=Not%20Allowed HTTP/1.1" 404 Not Found
+INFO:     14.139.42.50:62851 - "PATCH /superadmin/reject-leave-request/68188028fddb0c4390f65615?remarks=Not%20Allowed HTTP/1.1" 200 OK
+INFO:     14.139.42.50:41348 - "GET /admin/attendance HTTP/1.1" 404 Not Found
+INFO:     14.139.42.50:41348 - "GET /superadmin/all-users HTTP/1.1" 200 OK
+INFO:     14.139.42.50:41350 - "GET /superadmin/get-leave-requests HTTP/1.1" 200 OK
+INFO:     14.139.42.50:19100 - "PATCH /superadmin/reject-leave-request/68187fa4fddb0c4390f65614 HTTP/1.1" 422 Unprocessable Entity
+INFO:     14.139.42.50:41388 - "PATCH /superadmin/reject-leave-request/68187fa4fddb0c4390f65614 HTTP/1.1" 422 Unprocessable Entity
+INFO:     14.139.42.50:2659 - "PATCH /superadmin/approve-leave-request/68187fa4fddb0c4390f65614 HTTP/1.1" 200 OK
+INFO:     14.139.42.50:2659 - "GET /superadmin/get-leave-requests HTTP/1.1" 200 OK
+INFO:     14.139.42.50:41392 - "PATCH /superadmin/approve-leave-request/68187fa4fddb0c4390f65614 HTTP/1.1" 404 Not Found
+INFO:     14.139.42.50:62006 - "GET /superadmin/get-leave-requests HTTP/1.1" 200 OK
+INFO:     14.139.42.50:51784 - "POST /request-for-leave?leave_type=Casual%20Leave HTTP/1.1" 201 Created
+INFO:     14.139.42.50:26097 - "GET /superadmin/get-leave-requests HTTP/1.1" 200 OK
+INFO:     14.139.42.50:5951 - "PATCH /superadmin/reject-leave-request/6818856bfddb0c4390f65616 HTTP/1.1" 422 Unprocessable Entity
+INFO:     14.139.42.50:14668 - "PATCH /superadmin/approve-leave-request/6818856bfddb0c4390f65616 HTTP/1.1" 200 OK
+INFO:     14.139.42.50:14668 - "GET /superadmin/get-leave-requests HTTP/1.1" 200 OK
+INFO:     14.139.42.50:26980 - "POST /request-for-leave?leave_type=Casual%20Leave HTTP/1.1" 201 Created
+INFO:     14.139.42.50:13126 - "GET /superadmin/get-leave-requests HTTP/1.1" 200 OK
+INFO:     14.139.42.50:41436 - "GET /superadmin/get-leave-requests HTTP/1.1" 200 OK
+INFO:     14.139.42.50:41436 - "PATCH /superadmin/reject-leave-request/681886eafddb0c4390f65617 HTTP/1.1" 422 Unprocessable Entity
+INFO:     14.139.42.50:41466 - "GET /admin/attendance HTTP/1.1" 404 Not Found
+INFO:     14.139.42.50:41468 - "GET /superadmin/get-leave-requests HTTP/1.1" 200 OK
+INFO:     14.139.42.50:8524 - "PATCH /superadmin/reject-leave-request/681886eafddb0c4390f65617 HTTP/1.1" 422 Unprocessable Entity
