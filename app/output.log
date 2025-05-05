@@ -83,3 +83,8 @@ INFO:     14.139.42.50:41436 - "PATCH /superadmin/reject-leave-request/681886eaf
 INFO:     14.139.42.50:41466 - "GET /admin/attendance HTTP/1.1" 404 Not Found
 INFO:     14.139.42.50:41468 - "GET /superadmin/get-leave-requests HTTP/1.1" 200 OK
 INFO:     14.139.42.50:8524 - "PATCH /superadmin/reject-leave-request/681886eafddb0c4390f65617 HTTP/1.1" 422 Unprocessable Entity
+INFO:     14.139.42.50:41476 - "GET /admin/attendance HTTP/1.1" 404 Not Found
+INFO:     14.139.42.50:41476 - "GET /superadmin/all-users HTTP/1.1" 200 OK
+INFO:     14.139.42.50:41476 - "GET /superadmin/get-leave-requests HTTP/1.1" 200 OK
+INFO:     14.139.42.50:62935 - "PATCH /superadmin/reject-leave-request/681886eafddb0c4390f65617 HTTP/1.1" 422 Unprocessable Entity
+INFO:     14.139.42.50:52031 - "GET /user/get-leave-history HTTP/1.1" 200 OK
